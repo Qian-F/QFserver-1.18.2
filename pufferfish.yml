@@ -31,7 +31,7 @@ dab:
   enabled: true
   start-distance: 12
   max-tick-freq: 20
-  activation-dist-mod: 8
+  activation-dist-mod: 7
   blacklisted-entities: []
 inactive-goal-selector-throttle: true
 # Options for connecting to Pufferfish/Airplane's online utilities
