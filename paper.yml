@@ -129,7 +129,7 @@ world-settings:
     auto-save-interval: -1
     per-player-mob-spawns: true
     should-remove-dragon: false
-    optimize-explosions: false
+    optimize-explosions: true
     piglins-guard-chests: true
     game-mechanics:
       fix-curing-zombie-villager-discount-exploit: true
@@ -147,7 +147,7 @@ world-settings:
       disable-unloaded-chunk-enderpearl-exploit: true
       disable-relative-projectile-velocity: false
       disable-mob-spawner-spawn-egg-transformation: false
-      disable-chest-cat-detection: false
+      disable-chest-cat-detection: true
       nerf-pigmen-from-nether-portals: false
       disable-end-credits: false
       scan-for-legacy-ender-dragon: true
@@ -155,29 +155,29 @@ world-settings:
     experience-merge-max-value: -1
     despawn-ranges:
       monster:
-        soft: 32
-        hard: 128
+        soft: 28
+        hard: 64
       creature:
-        soft: 32
-        hard: 128
+        soft: 28
+        hard: 64
       ambient:
-        soft: 32
-        hard: 128
+        soft: 28
+        hard: 64
       axolotls:
-        soft: 32
-        hard: 128
+        soft: 28
+        hard: 64
       underground_water_creature:
-        soft: 32
-        hard: 128
+        soft: 28
+        hard: 64
       water_creature:
-        soft: 32
-        hard: 128
+        soft: 28
+        hard: 64
       water_ambient:
-        soft: 32
+        soft: 28
         hard: 64
       misc:
-        soft: 32
-        hard: 128
+        soft: 28
+        hard: 64
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 600
@@ -207,7 +207,7 @@ world-settings:
       max-refills: -1
       refresh-min: 12h
       refresh-max: 2d
-    max-entity-collisions: 8
+    max-entity-collisions: 2
     mob-effects:
       undead-immune-to-certain-effects: true
       spiders-immune-to-poison-effect: true
@@ -220,7 +220,7 @@ world-settings:
     armor-stands-do-collision-entity-lookups: true
     skeleton-horse-thunder-spawn-chance: 0.01
     fix-items-merging-through-walls: false
-    container-update-tick-rate: 1
+    container-update-tick-rate: 3
     fix-climbing-bypassing-cramming-rule: false
     nether-ceiling-void-damage-height: 0
     allow-non-player-entities-on-scoreboards: false
@@ -233,7 +233,7 @@ world-settings:
     redstone-implementation: vanilla
     keep-spawn-loaded: true
     anti-xray:
-      enabled: false
+      enabled: true
       engine-mode: 1
       max-block-height: 64
       update-radius: 2
@@ -270,10 +270,10 @@ world-settings:
     delay-chunk-unloads-by: 10s
     disable-teleportation-suffocation-check: false
     fixed-chunk-inhabited-time: -1
-    max-auto-save-chunks-per-tick: 24
+    max-auto-save-chunks-per-tick: 6
     baby-zombie-movement-modifier: 0.5
     use-vanilla-world-scoreboard-name-coloring: false
-    prevent-moving-into-unloaded-chunks: false
+    prevent-moving-into-unloaded-chunks: true
     spawn-limits:
       monster: -1
       creature: -1
@@ -305,7 +305,7 @@ world-settings:
     duplicate-uuid-saferegen-delete-range: 32
     hopper:
       cooldown-when-full: true
-      disable-move-event: false
+      disable-move-event: true
       ignore-occluding-blocks: false
     update-pathfinding-on-block-update: true
     map-item-frame-cursor-update-interval: 10
@@ -325,13 +325,13 @@ world-settings:
         items:
           hide-itemmeta: false
           hide-durability: false
-    grass-spread-tick-rate: 1
+    grass-spread-tick-rate: 4
     only-players-collide: false
     allow-vehicle-collisions: true
     portal-search-radius: 128
     portal-create-radius: 16
     portal-search-vanilla-dimension-scaling: true
-    armor-stands-tick: true
+    armor-stands-tick: false
     zombies-target-turtle-eggs: true
     zombie-villager-infection-chance: -1.0
     unsupported-settings:
@@ -342,14 +342,14 @@ world-settings:
     show-sign-click-command-failure-msgs-to-player: false
     allow-using-signs-inside-spawn-protection: false
     ender-dragons-death-always-places-dragon-egg: false
-    non-player-arrow-despawn-rate: -1
-    creative-arrow-despawn-rate: -1
+    non-player-arrow-despawn-rate: 60
+    creative-arrow-despawn-rate: 60
     spawner-nerfed-mobs-should-jump: false
     entities-target-with-follow-range: false
     wateranimal-spawn-height:
       maximum: default
       minimum: default
-    mob-spawner-tick-rate: 1
+    mob-spawner-tick-rate: 2
     all-chunks-are-slime-chunks: false
     map-item-frame-cursor-limit: 128
     tick-rates:
