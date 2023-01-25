@@ -2,7 +2,6 @@ logs/
 world/
 world_nether/
 world_the_end/
-.*
-!.gitignore
 /eula.txt
 /ops.json
+.console_history
