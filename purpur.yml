@@ -959,7 +959,7 @@ world-settings:
           only-babies: true
           chance: 0.05
           try-existing-chickens: true
-        aggressive-towards-villager-when-lagging: true
+        aggressive-towards-villager-when-lagging: false
         bypass-mob-griefing: false
         takes-damage-from-water: false
         always-drop-exp: false
@@ -1423,7 +1423,7 @@ world-settings:
         eject-players-on-land: false
         do-fall-damage: true
       disable-drops-on-cramming-death: false
-      entities-can-use-portals: true
+      entities-can-use-portals: 2
       entities-pick-up-loot-bypass-mob-griefing: false
       fireballs-bypass-mob-griefing: false
       impose-teleport-restrictions-on-gateways: false
