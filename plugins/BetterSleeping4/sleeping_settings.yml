@@ -45,5 +45,5 @@ world_settings:
   worldname:
     enabled: true
     night_length: 500
-    night_skip_length: 10
     day_length: 700
+    night_skip_length: 10
