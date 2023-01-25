@@ -7,3 +7,4 @@ world_the_end/
 /eula.txt
 /ops.json
 /usercache.json
+*.db
