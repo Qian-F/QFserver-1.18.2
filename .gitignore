@@ -6,3 +6,4 @@ world_the_end/
 !.gitignore
 /eula.txt
 /ops.json
+/usercache.json
