@@ -4,7 +4,7 @@
 # ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 # ┣╸ Information: https://william278.net/project/huskhomes
 # ┗╸ Documentation: https://william278.net/docs/huskhomes
-language: en-gb
+language: zh-cn
 check_for_updates: true
 debug_logging: false
 database:

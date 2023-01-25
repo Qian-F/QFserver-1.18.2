@@ -15,7 +15,7 @@ mysql-password:
 
 # If modified, will automatically attempt to translate languages phrases.
 # List of language codes: https://coreprotect.net/languages/
-language: en
+language: zh-CN
 
 # If enabled, CoreProtect will check for updates when your server starts up.
 # If an update is available, you'll be notified via your server console.
