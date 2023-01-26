@@ -1,0 +1,41 @@
+# The version of the plugin and configuration
+Version: 1.5
+
+settings:
+  # Kick all the player when you on the antijoin function
+  kick-when-on: false
+
+motd:
+  enable: true
+  line1: '&cYou cannot join the server now.'
+  line2: '&cPlease wait for a few minutes!'
+  maxplayer:
+    enable: true
+    amount: -666
+  icon:
+    enable: true
+    image: logo.png
+
+messages:
+  commands:
+    top: '&7&m                               '
+    help: '&b/antijoin help View help'
+    toggle: '&b/antijoin toggle on/off anti join'
+    kick: '&b/antijoin kick Kick the player who has no permission'
+    add: '&b/antijoin add <name> Add player to whitelist'
+    del: '&b/antijoin del <name> Remove the player from whitelist'
+    clear: '&b/antijoin clear Clear the whitelist'
+    reload: '&b/antijoin reload Reload configuration'
+    bottom: '&7&m                               '
+  no-perm: '&cYou do not have permission'
+  anti-join: '&cThe server is not allow to join now. Please wait for a moment!'
+  toggle-off: '&cYou off the AntiJoin!'
+  toggle-on: '&aYou on the AntiJoin!'
+  not-on: '&cYou did not on the AntiJoin'
+  kick-success: '&aYou kicked all the player!'
+  reload-success: '&aConfiguration reloaded successful!'
+  already-exists: '&cThe player is already exists in the whitelist!'
+  not-in-list: '&cThe player is not in the whitelist!'
+  add-success: '&aYou added &e%player% &ainto the whitelist!'
+  del-success: '&aYou removed &e%player% &afrom the whitelist!'
+  clear-success: '&aYou cleared the whitelist!'

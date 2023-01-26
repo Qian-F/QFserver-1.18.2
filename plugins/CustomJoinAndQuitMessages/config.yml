@@ -1,0 +1,271 @@
+#    ______    _____   ____    __  ___
+#   / ____/   / /   | / __ \  /  |/  /
+#  / /   __  / / /| |/ / / / / /|_/ /  By jonagamerpro1234
+# / /___/ /_/ / ___ / /_/ / / /  / /   Version 1.7.7-release
+# \____/\____/_/  |_\___\_\/_/  /_/    Thanks for using CustomJoinAndQuitMessage <3
+#                                    
+# ● A simple plugin for personalization of the join and quit messages and more...
+#
+# ● Spigot: https://www.spigotmc.org/resources/custom-join-and-quit-message-1-8-x-1-19-x.57006/
+# ● Discord: https://discord.gg/c5GhQDQCK5
+# ● Issue Tracker: https://github.com/jonagamerpro1234/CustomJoinAndQuitMessages/issues
+# ● Plugin Statistics: https://bstats.org/plugin/bukkit/CustomJoinAndQuitMessages/6318
+#
+Config:
+
+  # |Lang| you can use the available languages of the plugin, or you can add your own translations [ Default = en-US ]
+  Lang: en_US
+  
+  # |Update| This function lets you know if there is a plugin update [Does not disable console messages]
+  Update: true
+  
+  # |Debug| shows you important information about the plugin loading 
+  Debug: true
+  
+  # |Type| the type is a way of knowing what is being used whether in the [normal] | [group] | [none] format
+  Type: normal
+  
+  # |Show-Chat-In-Console| here you can enable or disable the chat to be seen in the console
+  Show-Chat-In-Console: true
+#
+# |Hooks|
+Hooks:
+  
+  # |LuckPerms| Here you can configure everything related to LuckPerms and or deactivate or activate functions
+  LuckPerms:
+    
+    # |Enabled| Here you can enable or disable this feature
+    Enabled: true
+    
+    # |AutoUpdateGroup| This function allows the plugin to detect if the player has changed rank in a period of time defined in the [Tick] section
+    AutoUpdateGroup:
+      
+      # |Enabled| Here you can enable or disable this feature
+      Enabled: true
+      
+      # |Tick| here you can define the time that the actions are automatically executed [Default = 600], 600 tick = 30 sec
+      Tick: 600
+  
+  # |DiscordSRV| Here you can define the discord channel where the messages from minecraft to discord are seen
+  # !This characteristic is in the experimental phase!
+  DiscordSRV:
+
+    # |Enabled| Here you can enable or disable this feature
+    Enabled: true
+
+    # |Channel-ID| Here is the id of the channel that is used for the chat
+    Channel-ID: 'none'
+  #
+  # |Essentials|
+  Essentials:
+    
+    # |Enabled| Here you can enable or disable this feature
+    Enabled: true
+    
+    # |HidePlayerIsVanish| This allows you to join or quit the server without the message being shown to other players.
+    HidePlayerIsVanish: true
+  #
+  # |EssentialsDiscord|
+  # !This characteristic is in the experimental phase!
+  EssentialsDiscord:
+
+    # |Enabled| Here you can enable or disable this feature
+    Enabled: true
+
+    # |Channel-ID| Here is the id of the channel that is used for the chat
+    Channel-ID: 'none'
+
+    # |Use-Default-Channel|
+    Use-Default-Channel: true
+#
+# | Join |
+Join:
+  
+  # |Enabled| Here you can enable or disable this feature
+  Enabled: true
+  
+  # |Text| This is where Join customizable message is located
+  Text: '&b[<#:83FF6F>+&b] <#:A157FF><name>'
+  
+  # |First-Join| 
+  First-Join:
+    
+    # |Enabled| Here you can enable or disable this feature
+    Enabled: true
+    
+    # |Text| Here you can set the join message for the first time
+    Text: '&6Welcome to server &a<name>&6 for the first time'
+  
+  # |Type| Here you can find two types that are [ normal | modify ]
+  Type: modify
+  
+  # |HoverEvent| This section allows you to modify the hover events in the chat
+  HoverEvent:
+    
+    # |Enabled| Here you can enable or disable this feature
+    Enabled: true
+
+    # |Hover| This section allows you to define the hover text
+    Hover:
+      - '&6> &aHello &b<name>'
+      - '&6> &e%player_exp_to_level%'
+      - '&6> &dadd more lines like these'
+  
+  # |ClickEvent| This section allows you to modify chat click events
+  ClickEvent:
+
+    # |Enabled| Here you can enable or disable this feature
+    Enabled: true
+    
+    # |Mode| there are three different modes which are [ command | suggest | url ]
+    Mode: command
+    
+    # |Actions| This is where are the available events that you can use
+    Actions:
+      
+      # |Command| Clicking on the chat will execute the command defined in the config
+      Command: '/say <name> hello server'
+      
+      # |Url| Clicking on the chat opens a link
+      Url: 'https://www.spigotmc.org/resources/custom-join-and-quit-message-1-7-x-1-17-x.57006/'
+      
+      # |Suggest-Command| Clicking on the chat suggests a command that you define in the config
+      Suggest-Command: '/msg <name>'
+  
+  # |Sound| In this section you can configure the sound of the join
+  # |Sound list: https://www.spigotmc.org/wiki/cc-sounds-list/ 
+  Sound:
+    
+    # |Enabled| Here you can enable or disable this feature
+    Enabled: true
+    
+    # |Send-To-All| When active, the sound will be sent to all players connected to the server
+    Send-To-All: true
+    
+    # |Name| This is the name of the sound you will hear when it is mentioned to you in chat.
+    Name: 'BLOCK_NOTE_BLOCK_PLING'
+    
+    # |Pitch| This is the pitch of the sound that you will hear when mentioned in the chat
+    Pitch: 1
+    
+    # |Volume| This is the volume of the sound that you will hear when the chat mentions it
+    Volume: 20
+
+  # |Title| In this section you can configure the title of the join
+  Title:
+    
+    # |Enabled| Here you can enable or disable this feature
+    Enabled: true
+
+    # |Title| here you can set the title text
+    Title: '<RAINBOW:1>Welcome to Server</RAINBOW>'
+    
+    # |SubTitle| here you can set the subtitle text
+    SubTitle: '<GRADIENT:FF0000><name></GRADIENT:00AAFF>'
+    
+    # |FadeIn| here you can set the input time of the title
+    FadeIn: 20
+    
+    # |Stay| here you can set how long the title stays
+    Stay: 40
+    
+    # |FadeOut| here you can set the title output time
+    FadeOut: 20
+  
+  # |ActionBar| In this section you can configure the Actionbar of the join
+  ActionBar:
+    
+    # |Enabled| Here you can enable or disable this feature
+    Enabled: true
+    
+    # |Text| here you can set the message that appears in the action bar
+    Text: '<GRADIENT:FF8700>Welcome to the server</GRADIENT:00FFAA>'
+#
+# | Quit | 
+Quit:
+
+  # |Enabled| Here you can enable or disable this feature
+  Enabled: true
+  
+  # |Text| This is where Quit customizable message is located
+  Text: '&b[<#:FF8E8E>-&b] <#:A157FF><name>'
+  
+  # |Type| Here you can find two types that are [ normal | modify ]
+  Type: normal
+  
+  # |HoverEvent| This section allows you to modify the hover events in the chat
+  HoverEvent:
+    
+    # |Enabled| Here you can enable or disable this feature
+    Enabled: true
+
+    # |Hover| This section allows you to define the hover text
+    Hover:
+      - '&6> &aHello &b<name>'
+      - '&6> &e%player_exp_to_level%'
+      - '&6> &dadd more lines like these'
+  
+  # |ClickEvent| This section allows you to modify chat click events
+  ClickEvent:
+
+    # |Enabled| Here you can enable or disable this feature
+    Enabled: true
+    
+    # |Mode| there are three different modes which are [ command | suggest | url ]
+    Mode: command
+    
+    # |Actions| This is where are the available events that you can use
+    Actions:
+      
+      # |Command| Clicking on the chat will execute the command defined in the config
+      Command: '/say <name> hello server'
+      
+      # |Url| Clicking on the chat opens a link
+      Url: 'https://www.spigotmc.org/resources/custom-join-and-quit-message-1-7-x-1-17-x.57006/'
+      
+      # |Suggest-Command| Clicking on the chat suggests a command that you define in the config
+      Suggest-Command: '/msg <name>'
+  
+  # |Sound| In this section you can configure the sound of the join
+  # |Sound list: https://www.spigotmc.org/wiki/cc-sounds-list/ 
+  Sound:
+    
+    # |Enabled| Here you can enable or disable this feature
+    Enabled: true
+    
+    # |Send-To-All| When active, the sound will be sent to all players connected to the server
+    Send-To-All: true
+    
+    # |Name| This is the name of the sound you will hear when it is mentioned to you in chat.
+    Name: 'BLOCK_NOTE_BLOCK_PLING'
+    
+    # |Pitch| This is the pitch of the sound that you will hear when mentioned in the chat
+    Pitch: 1
+    
+    # |Volume| This is the volume of the sound that you will hear when the chat mentions it
+    Volume: 10
+#
+# |Welcome|    
+Welcome:
+
+  # |Enabled| Here you can enable or disable this feature
+  Enabled: true
+  
+  # |Text| here you can set your own welcome message when entering
+  Text:
+    - '<GRADIENT:8200FC>&m=========================================</GRADIENT:00FC95>&r'
+    - '<0>'
+    - '&e> &7Welcome To The Server &b<name>'
+    - '<0>'
+    - '&e> &cShop: shop-example.com'
+    - '&e> &7Use &b/skin to put on a skin'
+    - '<0>'
+    - '<GRADIENT:8200FC>&m=========================================</GRADIENT:00FC95>&r'
+#
+# |File-Version|I would not change anything
+File-Version: 3
+# |> This is the end of the configuration ... [-_-] more things coming soon
+# 
+# | Config File  |
+# | Version 1.7  |
+#

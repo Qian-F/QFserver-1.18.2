@@ -1,0 +1,16 @@
+
+hostname: 127.0.0.1
+customAddress: ''
+
+skin-url: ''
+head-url: ''
+
+geolite2-eula: false
+baidu-map-license-key: ''
+
+logger:
+  maxLevel: INFO
+  minLevel: 'OFF'
+
+debug: false
+token: da89689a-fcfc-4e94-a149-70da644f83c8
