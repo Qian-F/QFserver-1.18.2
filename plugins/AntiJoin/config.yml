@@ -3,15 +3,15 @@ Version: 1.5
 
 settings:
   # Kick all the player when you on the antijoin function
-  kick-when-on: false
+  kick-when-on: true
 
 motd:
   enable: true
-  line1: '&cYou cannot join the server now.'
-  line2: '&cPlease wait for a few minutes!'
+  line1: '&c服务器维护中,请稍后进入!'
+  line2: '&c对给您造成的不便深表歉意orz'
   maxplayer:
     enable: true
-    amount: -666
+    amount: 0
   icon:
     enable: true
     image: logo.png
@@ -28,7 +28,7 @@ messages:
     reload: '&b/antijoin reload Reload configuration'
     bottom: '&7&m                               '
   no-perm: '&cYou do not have permission'
-  anti-join: '&cThe server is not allow to join now. Please wait for a moment!'
+  anti-join: '&c服务器维护中,请稍后进入!'
   toggle-off: '&cYou off the AntiJoin!'
   toggle-on: '&aYou on the AntiJoin!'
   not-on: '&cYou did not on the AntiJoin'

@@ -26,7 +26,7 @@ Options:
   allow-unsafe: false
   
   # Defines whether more than one player can sit or pose on the same block
-  same-block-rest: false
+  same-block-rest: true
   
   # Defines whether a player is centered on the block when sitting or posing
   center-block: true
@@ -64,10 +64,10 @@ Options:
   PlayerSit:
     
     # Defines whether a player can right-click to sit on another player
-    allow-sit: true
+    allow-sit: false
     
     # Defines whether a player can right-click to sit on an NPC
-    allow-sit-npc: true
+    allow-sit-npc: false
     
     # Defines the maximum number of players that can be stacked (0 means unlimited)
     max-stack: 0
@@ -98,19 +98,19 @@ Options:
     pose-message: true
     
     # Defines whether a player can interact with the environment or other players while posing
-    interact: false
+    interact: true
     
     # Defines whether to reset the time since a player's last rest (affects phantom spawn timer)
-    lay-rest: true
+    lay-rest: false
     
     # Defines whether a player makes snoring sounds when lying down
-    lay-snoring-sounds: true
+    lay-snoring-sounds: false
     
     # Defines whether snoring sounds are only heard at night
     lay-snoring-night-only: true
     
     # Defines whether a lying player counts for skipping the night (at least one player must be sleeping in a bed to skip the night!)
-    lay-night-skip: true
+    lay-night-skip: false
   
   
   

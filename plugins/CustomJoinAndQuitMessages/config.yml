@@ -20,7 +20,7 @@ Config:
   Update: true
   
   # |Debug| shows you important information about the plugin loading 
-  Debug: true
+  Debug: false
   
   # |Type| the type is a way of knowing what is being used whether in the [normal] | [group] | [none] format
   Type: normal
@@ -103,7 +103,7 @@ Join:
   HoverEvent:
     
     # |Enabled| Here you can enable or disable this feature
-    Enabled: true
+    Enabled: false
 
     # |Hover| This section allows you to define the hover text
     Hover:
@@ -115,7 +115,7 @@ Join:
   ClickEvent:
 
     # |Enabled| Here you can enable or disable this feature
-    Enabled: true
+    Enabled: false
     
     # |Mode| there are three different modes which are [ command | suggest | url ]
     Mode: command
@@ -158,7 +158,7 @@ Join:
     Enabled: true
 
     # |Title| here you can set the title text
-    Title: '<RAINBOW:1>Welcome to Server</RAINBOW>'
+    Title: '<RAINBOW:1>欢迎进入服务器!</RAINBOW>'
     
     # |SubTitle| here you can set the subtitle text
     SubTitle: '<GRADIENT:FF0000><name></GRADIENT:00AAFF>'
@@ -176,7 +176,7 @@ Join:
   ActionBar:
     
     # |Enabled| Here you can enable or disable this feature
-    Enabled: true
+    Enabled: false
     
     # |Text| here you can set the message that appears in the action bar
     Text: '<GRADIENT:FF8700>Welcome to the server</GRADIENT:00FFAA>'
@@ -191,13 +191,13 @@ Quit:
   Text: '&b[<#:FF8E8E>-&b] <#:A157FF><name>'
   
   # |Type| Here you can find two types that are [ normal | modify ]
-  Type: normal
+  Type: modify
   
   # |HoverEvent| This section allows you to modify the hover events in the chat
   HoverEvent:
     
     # |Enabled| Here you can enable or disable this feature
-    Enabled: true
+    Enabled: false
 
     # |Hover| This section allows you to define the hover text
     Hover:
@@ -209,7 +209,7 @@ Quit:
   ClickEvent:
 
     # |Enabled| Here you can enable or disable this feature
-    Enabled: true
+    Enabled: false
     
     # |Mode| there are three different modes which are [ command | suggest | url ]
     Mode: command
@@ -255,10 +255,10 @@ Welcome:
   Text:
     - '<GRADIENT:8200FC>&m=========================================</GRADIENT:00FC95>&r'
     - '<0>'
-    - '&e> &7Welcome To The Server &b<name>'
+    - '&e> &7欢迎登陆! &b<name>'
     - '<0>'
-    - '&e> &cShop: shop-example.com'
-    - '&e> &7Use &b/skin to put on a skin'
+    - '&e> &c祝你在MC的世界中找到属于你的快乐!'
+    - '&e> &7尽情享受吧! 独一无二的 MC Player!'
     - '<0>'
     - '<GRADIENT:8200FC>&m=========================================</GRADIENT:00FC95>&r'
 #
