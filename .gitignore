@@ -2,13 +2,15 @@ logs/
 world/
 world_nether/
 world_the_end/
-/plugins/MiraiMC
+/plugins/MiraiMC/MiraiBot/bots/
+
 
 /eula.txt
 /ops.json
 /usercache.json
 /plugins/LinearBot/bot.yml
 /plugins/NekoMaid/status.json
+/plugins/ProtocolLib/lastupdate
 *.db
 
 /.*
