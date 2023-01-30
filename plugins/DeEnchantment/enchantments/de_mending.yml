@@ -1,0 +1,28 @@
+
+# 是否启用
+enable: true
+
+# 负魔名称
+translate-name: §7经验反哺
+
+# 负魔描述
+description: §8 - 消耗耐久增加经验
+
+# 负魔目标,在此挑选: https://bukkit.windit.net/javadoc/org/bukkit/enchantments/EnchantmentTarget.html
+target: BREAKABLE
+
+# 负魔变异概率 0~1
+chance: 0.2
+
+# 负魔最大等级
+max-level: 1
+
+# 互相冲突的负魔
+conflicts: []
+
+# 经验等级乘数
+expRate: 1.0
+
+# 额外耐久等级乘数
+damageRate: 1.0
+

@@ -1,0 +1,29 @@
+
+# 是否启用
+enable: true
+
+# 负魔名称
+translate-name: §7多重
+
+# 负魔描述
+description: §8 - 消耗一根箭射出多支箭
+
+# 负魔目标,在此挑选: https://bukkit.windit.net/javadoc/org/bukkit/enchantments/EnchantmentTarget.html
+target: BOW
+
+# 负魔变异概率 0~1
+chance: 0.2
+
+# 负魔最大等级
+max-level: 2
+
+# 互相冲突的负魔
+conflicts:
+- DE_MENDING
+
+# 多重的类型，0为横向，1为随机散射
+type: 0
+
+# 偏离角度
+angle: 0.2
+

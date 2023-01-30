@@ -1,0 +1,29 @@
+
+# 是否启用
+enable: true
+
+# 负魔名称
+translate-name: §7引雷针
+
+# 负魔描述
+description: §8 - 在雷雨天时会遭天谴
+
+# 负魔目标,在此挑选: https://bukkit.windit.net/javadoc/org/bukkit/enchantments/EnchantmentTarget.html
+target: TRIDENT
+
+# 负魔变异概率 0~1
+chance: 0.2
+
+# 负魔最大等级
+max-level: 1
+
+# 互相冲突的负魔
+conflicts:
+- DE_RIPTIDE
+
+# 是否只有效果，无伤害
+isEffect: false
+
+# 额外伤害等级乘数
+extraDamage: 0.0
+

@@ -1,0 +1,26 @@
+
+# 是否启用
+enable: true
+
+# 负魔名称
+translate-name: §7熔岩行者
+
+# 负魔描述
+description: §8 - 在岩浆上行走
+
+# 负魔目标,在此挑选: https://bukkit.windit.net/javadoc/org/bukkit/enchantments/EnchantmentTarget.html
+target: ARMOR_FEET
+
+# 负魔变异概率 0~1
+chance: 0.2
+
+# 负魔最大等级
+max-level: 2
+
+# 互相冲突的负魔
+conflicts:
+- DE_DEPTH_STRIDER
+
+# 半径等级乘数，最终半径 = radiusRate * level +1
+radiusRate: 1
+

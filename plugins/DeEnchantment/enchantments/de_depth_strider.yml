@@ -1,0 +1,26 @@
+
+# 是否启用
+enable: true
+
+# 负魔名称
+translate-name: §7旱鸭子
+
+# 负魔描述
+description: §8 - 水下视野减少
+
+# 负魔目标,在此挑选: https://bukkit.windit.net/javadoc/org/bukkit/enchantments/EnchantmentTarget.html
+target: ARMOR_FEET
+
+# 负魔变异概率 0~1
+chance: 0.2
+
+# 负魔最大等级
+max-level: 3
+
+# 互相冲突的负魔
+conflicts:
+- DE_FROST_WALKER
+
+# 缓慢等级乘数,越高水下视野越低(通过给缓慢药水实现)
+rate: 2
+

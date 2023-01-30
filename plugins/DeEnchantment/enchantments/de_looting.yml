@@ -1,0 +1,25 @@
+
+# 是否启用
+enable: true
+
+# 负魔名称
+translate-name: §7知足
+
+# 负魔描述
+description: §8 - 击杀生物有概率没有掉落物
+
+# 负魔目标,在此挑选: https://bukkit.windit.net/javadoc/org/bukkit/enchantments/EnchantmentTarget.html
+target: WEAPON
+
+# 负魔变异概率 0~1
+chance: 0.2
+
+# 负魔最大等级
+max-level: 3
+
+# 互相冲突的负魔
+conflicts: []
+
+# 触发概率等级乘数, 0~1
+chanceRate: 0.05
+

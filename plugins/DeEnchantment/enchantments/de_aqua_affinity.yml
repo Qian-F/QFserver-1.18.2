@@ -1,0 +1,25 @@
+
+# 是否启用
+enable: true
+
+# 负魔名称
+translate-name: §7水下慢掘
+
+# 负魔描述
+description: §8 - 水下挖掘有概率失败
+
+# 负魔目标,在此挑选: https://bukkit.windit.net/javadoc/org/bukkit/enchantments/EnchantmentTarget.html
+target: ARMOR_HEAD
+
+# 负魔变异概率 0~1
+chance: 0.2
+
+# 负魔最大等级
+max-level: 1
+
+# 互相冲突的负魔
+conflicts: []
+
+# 每级挖掘失败的概率系数
+rate: 10.0
+

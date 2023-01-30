@@ -28,7 +28,7 @@ default:
   First-Join:
     
     # |Enabled| Here you can enable or disable this feature
-    Enabled: true
+    Enabled: false
     
     # |Text| Here you can set the join message for the first time
     Text: '&6Welcome to server &a<name>&6 for the first time'
@@ -40,7 +40,7 @@ default:
   HoverEvent:
     
     # |Enabled| Here you can enable or disable this feature
-    Enabled: true
+    Enabled: false
 
     # |Hover| This section allows you to define the hover text
     Hover:
@@ -52,7 +52,7 @@ default:
   ClickEvent:
 
     # |Enabled| Here you can enable or disable this feature
-    Enabled: true
+    Enabled: false
     
     # |Mode| there are three different modes which are [ command | suggest | url ]
     Mode: command
@@ -114,7 +114,7 @@ default:
   ActionBar:
     
     # |Enabled| Here you can enable or disable this feature
-    Enabled: true
+    Enabled: false
     
     # |Text|
     Text: '<GRADIENT:FF8700>Welcome to the server</GRADIENT:00FFAA>'

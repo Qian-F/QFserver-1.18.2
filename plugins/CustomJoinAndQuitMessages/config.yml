@@ -51,7 +51,7 @@ Hooks:
   DiscordSRV:
 
     # |Enabled| Here you can enable or disable this feature
-    Enabled: true
+    Enabled: false
 
     # |Channel-ID| Here is the id of the channel that is used for the chat
     Channel-ID: 'none'
@@ -60,7 +60,7 @@ Hooks:
   Essentials:
     
     # |Enabled| Here you can enable or disable this feature
-    Enabled: true
+    Enabled: false
     
     # |HidePlayerIsVanish| This allows you to join or quit the server without the message being shown to other players.
     HidePlayerIsVanish: true
@@ -70,7 +70,7 @@ Hooks:
   EssentialsDiscord:
 
     # |Enabled| Here you can enable or disable this feature
-    Enabled: true
+    Enabled: false
 
     # |Channel-ID| Here is the id of the channel that is used for the chat
     Channel-ID: 'none'
@@ -91,7 +91,7 @@ Join:
   First-Join:
     
     # |Enabled| Here you can enable or disable this feature
-    Enabled: true
+    Enabled: false
     
     # |Text| Here you can set the join message for the first time
     Text: '&6Welcome to server &a<name>&6 for the first time'

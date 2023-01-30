@@ -1,0 +1,44 @@
+
+# 是否启用
+enable: true
+
+# 负魔名称
+translate-name: §a灵魂绑定
+
+# 负魔描述
+description: §8 - 绑定玩家的灵魂仅允许使用
+
+# 负魔目标,在此挑选: https://bukkit.windit.net/javadoc/org/bukkit/enchantments/EnchantmentTarget.html
+target: BREAKABLE
+
+# 负魔变异概率 0~1
+chance: 0.2
+
+# 负魔最大等级
+max-level: 1
+
+# 互相冲突的负魔
+conflicts:
+- DE_VANISHING_CURSE
+
+# 当有灵魂绑定的物品消耗耐久时将绑定为该玩家，并发送消息
+bindMessage: '&a您的装备已绑定您的灵魂'
+
+# 不能使用时发送的消息
+ownerMessage: '&c你不能使用绑定了别人灵魂的装备!'
+
+# 防止被他人用于铁砧
+denyAnvil: true
+
+# 防止被他人用于砂轮
+denyGrindStone: true
+
+# 防止被他人捡起
+denyPickup: true
+
+# 死亡不掉落
+keepInventory: true
+
+# 描述中用于替换玩家名字的占位符
+placeHolder: 玩家
+

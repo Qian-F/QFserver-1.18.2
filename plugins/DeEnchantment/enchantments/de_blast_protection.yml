@@ -1,0 +1,37 @@
+
+# 是否启用
+enable: true
+
+# 负魔名称
+translate-name: §7瞬间爆炸
+
+# 负魔描述
+description: §8 - 受到伤害时有概率爆炸
+
+# 负魔目标,在此挑选: https://bukkit.windit.net/javadoc/org/bukkit/enchantments/EnchantmentTarget.html
+target: ARMOR
+
+# 负魔变异概率 0~1
+chance: 0.2
+
+# 负魔最大等级
+max-level: 4
+
+# 互相冲突的负魔
+conflicts:
+- DE_FIRE_PROTECTION
+- DE_PROJECTILE_PROTECTION
+- DE_PROTECTION
+
+# 爆炸概率等级乘数 0~1
+changce: 0.05
+
+# 爆炸威力等级乘数
+explosionRate: 0.2
+
+# 爆炸是否有火焰
+allowFire: false
+
+# 爆炸是否破坏方块
+allowDestroy: false
+

@@ -1,0 +1,31 @@
+
+# 是否启用
+enable: true
+
+# 负魔名称
+translate-name: §7易燃
+
+# 负魔描述
+description: §8 - 受到攻击时有概率着火
+
+# 负魔目标,在此挑选: https://bukkit.windit.net/javadoc/org/bukkit/enchantments/EnchantmentTarget.html
+target: ARMOR
+
+# 负魔变异概率 0~1
+chance: 0.2
+
+# 负魔最大等级
+max-level: 4
+
+# 互相冲突的负魔
+conflicts:
+- DE_BLAST_PROTECTION
+- DE_PROJECTILE_PROTECTION
+- DE_PROTECTION
+
+# 触发概率等级乘数, 0~1
+chanceRate: 0.05
+
+# 着火时间等级乘数,单位tick
+fireTimeRate: 20
+

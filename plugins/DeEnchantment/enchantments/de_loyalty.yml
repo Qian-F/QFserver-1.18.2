@@ -1,0 +1,35 @@
+
+# 是否启用
+enable: true
+
+# 负魔名称
+translate-name: §7背叛
+
+# 负魔描述
+description: §8 - 三叉戟有概率叛逃他人
+
+# 负魔目标,在此挑选: https://bukkit.windit.net/javadoc/org/bukkit/enchantments/EnchantmentTarget.html
+target: TRIDENT
+
+# 负魔变异概率 0~1
+chance: 0.2
+
+# 负魔最大等级
+max-level: 3
+
+# 互相冲突的负魔
+conflicts:
+- DE_RIPTIDE
+
+# 触发概率等级乘数
+chanceRate: 0.1
+
+# 宿主搜索半径
+radius: 10.0
+
+# 是否高亮宿主
+highlight: true
+
+# 提示消息
+message: '&c您的武器已背叛！&6现在属于 &a{player} &6位于 &a{location}'
+
