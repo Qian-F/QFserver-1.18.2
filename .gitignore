@@ -2,6 +2,7 @@ logs/
 world/
 world_nether/
 world_the_end/
+/QQBot/data/
 
 
 /eula.txt
@@ -9,6 +10,9 @@ world_the_end/
 /usercache.json
 /plugins/NekoMaid/status.json
 /plugins/ProtocolLib/lastupdate
+/QQBot/device.json
+/plugins/InfiniteBot3/player_data.yml
+/QQBot/session.token
 *.db
 
 /.*
