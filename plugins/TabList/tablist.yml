@@ -35,15 +35,13 @@ interval: 4
 random: false
 
 header:
-- "&5&m==========================\n%anim:tablist%"
-- "&7<75> %anim:welcome% %player%&c!&7 <74>"
-- ""
-- "&6Ping:&r %ping%&7ms&a TPS:&r %tps%\n"
+- "&9=========================="
+- "&b您当前登录的账户为: &f%player%"
+- "&fPing:&r %ping%&fms&f TPS:&r %tps%\n"
 
 footer:
-- ""
-- "&e&lPlayers:&6 %online-players%&7/&6%max-players%"
-- "&7<28> %anim:website%&7:&2 &nexample.com&7 <28>\n\n&5&m=========================="
+- "\n&b享受MC, 快乐每一天! "
+- "&9=========================="
 
 # Defines per world tablist for different worlds
 # You can separate worlds with ", " to show tablist in that worlds

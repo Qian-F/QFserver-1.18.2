@@ -90,14 +90,14 @@ placeholder-format:
     time-zone: GMT0
 
     # Use system default time zone instead of searching for that?
-    use-system-zone: false
+    use-system-zone: true
 
     # Formats/examples: https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html
     # Format of %server-time% placeholder.
     time-format: mm:HH
 
     # Format of %date% placeholder.
-    date-format: dd/MM/yyyy
+    date-format: yyyy/MM/dd
 
   # Ping color format for %ping% placeholder.
   ping:
@@ -105,9 +105,9 @@ placeholder-format:
 
     # https://github.com/montlikadani/TabList/wiki/Ping-or-tps-formatting
     formats:
-    - '&a%ping% <= 200'
+    - '&a%ping% <= 100'
     - '&6%ping% >= 200'
-    - '&c%ping% > 500'
+    - '&c%ping% >  300'
 
   # TPS color format for %tps% placeholder.
   tps:
@@ -115,9 +115,9 @@ placeholder-format:
 
     # https://github.com/montlikadani/TabList/wiki/Ping-or-tps-formatting
     formats:
-    - '&a%tps% > 18.0'
-    - '&6%tps% == 16.0'
-    - '&c%tps% < 16.0'
+    - '&a%tps% >= 18.0'
+    - '&6%tps% <= 16.0'
+    - '&c%tps% <  12.0'
 
     # How many numbers do you want to display after "." in %tps% placeholder?
     # The number should be higher than 0.
