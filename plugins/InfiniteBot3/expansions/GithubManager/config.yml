@@ -26,5 +26,7 @@ repo:
     # 监听仓库 URI
     uri:
       - 'Qian-F/QFserver-1.18.2'
+      - 'IllTamer/infinite-bot-3-expansion'
+      - 'IllTamer/infinitebot3'
 
 
