@@ -7,11 +7,11 @@ keystore:
 # Servers need to be enable
 server:
     # Listen on Minecraft port
-    :minecraft:
+    #:minecraft:
         # Listen on path "/"
-        /:
+        #/:
             # Static resources should be handled
-            handler: static
+            #handler: static
     # Uncomment below to see how config works
     ## Listen on port 80, with any host name localhost
     #:80:
@@ -32,3 +32,11 @@ server:
     #        # Listen to hosts, each line is a regex
     #        hosts:
     #            - '^localhost$'
+    :2333:
+    #端口配置
+        /NekoMaid:
+            handler: NekoMaid
+        /NekoMaidUpload:
+            handler: NekoMaidUpload
+        /NekoMaidDownload:
+            handler: NekoMaidDownload
