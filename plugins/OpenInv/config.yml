@@ -2,4 +2,7 @@ config-version: 5
 settings:
   disable-offline-access: false
   disable-saving: false
-  locale: 'zh_cn'
+  locale: zh_cn
+toggles:
+  any-chest:
+    e3dad091-629f-4e3c-b43f-2a7b0dc133e3: true
