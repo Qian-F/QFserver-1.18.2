@@ -29,6 +29,20 @@
 |   [Terra](https://www.spigotmc.org/resources/terra.85151/)   |              史诗地形生成器              |  6.0.0   |
 | [Uniporter](https://www.spigotmc.org/resources/uniporter.93782/) |         一端口多协议支持（前置）         |  1.3.4   |
 
+## 下载
+
+### 最新构建
+
+> 最新构建版本服务端，包含一些较为及时的问题修复，但是稳定性可能欠佳
+
+[点我下载](https://github.com/Qian-F/QFserver-1.18.2/archive/refs/heads/main.zip)
+
+### 最新发布
+
+> 较为稳定的发布版本，但是可能存在一些遗留问题
+
+[点我下载](https://github.com/Qian-F/QFserver-1.18.2/archive/refs/tags/1.0rel.zip)
+
 ## 提交反馈
 
 [点我直达](https://github.com/Qian-F/QFserver-1.18.2/issues/new/choose)
