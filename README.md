@@ -41,7 +41,7 @@
 
 > 较为稳定的发布版本，但是可能存在一些遗留问题
 
-[点我下载](https://github.com/Qian-F/QFserver-1.18.2/archive/refs/tags/1.0rel.zip)
+[点我下载](https://github.com/Qian-F/QFserver-1.18.2/releases)
 
 ## 提交反馈
 
