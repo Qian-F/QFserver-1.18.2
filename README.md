@@ -19,7 +19,6 @@
 | [DeEnchantment](https://www.mcbbs.net/thread-1198268-1-1.html) |                  负魔书                  |  2.1.3   |
 | [GSit](https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-13-x-1-19-x.62325/) |      允许玩家坐在地上/半砖上/楼梯上      |  1.3.5   |
 | [HuskHomes](https://www.spigotmc.org/resources/%E2%AD%90-huskhomes-1-16-1-19-%E2%AD%90-simple-intuitive-teleportation-suite-with-cross-server-support.83767/) |         完美的home/tpa/back/trap         |  3.2.1   |
-|   [InfiniteBot](https://github.com/IllTamer/infinitebot3)    |              新一代QQ机器人              |  3.1.7   |
 |             [LuckPerms](https://luckperms.net/)              |                 权限管理                 |  5.4.58  |
 |  [NekoMaid](https://www.mcbbs.net/thread-1230139-1-1.html)   |              远程服务器面板              |  0.3.2   |
 |      [OpenInv](https://dev.bukkit.org/projects/openinv)      |     查看玩家背包/末影箱（支持离线）      |  4.2.2   |
