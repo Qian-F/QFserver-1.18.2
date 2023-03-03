@@ -2,7 +2,7 @@
 name: BUG 提交
 about: 提交服务端使用过程中遇到的BUG
 title: ''
-labels: ''
+labels: '错误报告'
 assignees: ''
 
 ---

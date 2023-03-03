@@ -2,7 +2,7 @@
 name: 需求报告
 about: 在这里可以提出对服务端新功能的需求
 title: ''
-labels: ''
+labels: '新功能提案'
 assignees: ''
 
 
