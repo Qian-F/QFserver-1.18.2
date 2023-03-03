@@ -1,20 +1,11 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: 需求报告
+about: 在这里可以提出对服务端新功能的需求
 title: ''
 labels: ''
 assignees: ''
 
+
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
-
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
-
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
+请尽可能详细地描述你对新功能地需求以及添加该功能后的玩法等（注意使用md文件格式书写）
