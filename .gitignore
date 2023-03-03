@@ -11,6 +11,7 @@ logs/
 /usercache.json
 /plugins/NekoMaid/status.json
 /plugins/ProtocolLib/lastupdate
+/plugins/Residence/Backup/
 *.db
 
 /.*
