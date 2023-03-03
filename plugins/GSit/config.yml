@@ -7,6 +7,10 @@ Lang:
 
 Options:
   
+  # Defines whether the plugin uses an extended compatibility mode for all features
+  # Enable this option only if, for example, anti-cheat plugins report false feedback
+  enhanced-compatibility: false
+  
   # Defines whether the plugin should notify when a new version is available
   check-for-update: true
   

@@ -1,0 +1,16 @@
+CustomJoinAndQuitMessage:
+  Prefix: '&e[&dCustomJoinAndQuitMessages&e]'
+  Help-Msg:
+    - '&b/CustomJoinAndQuitMessage &8| &9/Cjm &7these are the variants of the main plugin command'
+    - '&b/Cjm &ehelp &7show this same message'
+    - '&b/Cjm &ereload &7reload the plugin files'
+    - '&b/Cjm &einfo &7shows information about the plugin'
+  Help-Cmd: '&7Use &b/Cjm &6help&7 for more information'
+  Reload: '&aReload Completed'
+  Error-Cmd: '&cUnknown Argument'
+  No-Permission: '&cYou dont have permission to do that!'
+  No-Permission-Label: 'Ask the server owner or an administrator for help for more information.'
+  Sound-Error: 'the sound does not belong to the current version or the name is wrong'
+  DisplayManager.Error: '&c|!| &cPlease set de option for execute featured'
+  DisplayManager.Sound.Usage: '&7Please select one of these two options to execute the function &e<join|quit>'
+  Groups.NotFoundGroup: '&cThe group could not be found'
