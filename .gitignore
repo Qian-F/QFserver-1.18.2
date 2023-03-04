@@ -12,6 +12,9 @@ logs/
 /plugins/NekoMaid/status.json
 /plugins/ProtocolLib/lastupdate
 /plugins/Residence/Backup/
+/plugins/DynamicDifficulty/data.yml
+/plugins/CustomJoinAndQuitMessages/Players
+
 *.db
 
 /.*
