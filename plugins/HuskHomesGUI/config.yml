@@ -1,0 +1,32 @@
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃     HuskHomesGUI Config      ┃
+# ┃    Developed by William278   ┃
+# ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+# ┗╸ Information: https://william278.net/project/huskhomesgui
+language: zh-cn
+menu:
+  # Options for the home/warp list menu GUI
+  rows: 0
+  show_controls: false
+  items:
+    homes_filler: minecraft:orange_stained_glass_pane
+    public_homes_filler: minecraft:lime_stained_glass_pane
+    warps_filler: minecraft:cyan_stained_glass_pane
+    default_icon: minecraft:stone
+  icons:
+    paginate_first_page: minecraft:egg
+    paginate_previous_page: minecraft:arrow
+    paginate_next_page: minecraft:spectral_arrow
+    paginate_last_page: minecraft:egg
+    controls_icon: minecraft:oak_sign
+editor:
+  icons:
+    # Options for the home/warp editor GUI
+    home_editor_filler: minecraft:lime_stained_glass_pane
+    warp_editor_filler: minecraft:lime_stained_glass_pane
+    back_button: minecraft:orange_stained_glass_pane
+    edit_location_button: minecraft:oak_boat
+    edit_name_button: minecraft:name_tag
+    edit_description_button: minecraft:writable_book
+    edit_privacy_button: minecraft:nether_star
+    delete_button: minecraft:barrier
