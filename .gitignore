@@ -24,6 +24,7 @@ logs/
 /banned-players.json
 /plugins/AntiJoin/whitelist.yml
 /plugins/CustomJoinAndQuitMessages/players.yml
+/plugins/Residence/uuids.yml
 *.db
 
 /.*
