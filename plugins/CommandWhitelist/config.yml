@@ -3,7 +3,7 @@ command-whitelist:
   # 启用
   enable: true
   # 阻止后发送的消息
-  blocked-message: '&cNot Command.'
+  blocked-message: '&c你没有权限执行此指令'
   # 列表 (&是Yaml的锚点符)
   list: &cmdlist
     - hehe
