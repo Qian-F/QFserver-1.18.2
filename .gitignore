@@ -5,6 +5,8 @@ logs/
 /crash-reports/
 /plugins/CustomJoinAndQuitMessages/Players/
 /plugins/Residence/Backup/
+/plugins/bStats/
+/plugins/Residence/Save/
 
 
 /eula.txt
@@ -20,6 +22,8 @@ logs/
 /commands.yml
 /banned-ips.json
 /banned-players.json
+/plugins/AntiJoin/whitelist.yml
+/plugins/CustomJoinAndQuitMessages/players.yml
 *.db
 
 /.*
