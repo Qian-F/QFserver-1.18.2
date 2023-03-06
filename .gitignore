@@ -3,6 +3,8 @@ logs/
 /world_nether/
 /world_the_end/
 /crash-reports/
+/plugins/CustomJoinAndQuitMessages/Players/
+/plugins/Residence/Backup/
 
 
 /eula.txt
@@ -10,11 +12,15 @@ logs/
 /usercache.json
 /plugins/NekoMaid/status.json
 /plugins/ProtocolLib/lastupdate
-/plugins/Residence/Backup/
 /plugins/DynamicDifficulty/data.yml
 /plugins/DynamicDifficulty/data.yml
-/plugins/CustomJoinAndQuitMessages/Players
-
+/permissions.yml
+/version_history.json
+/whitelist.json
+/help.yml
+/commands.yml
+/banned-ips.json
+/banned-players.json
 *.db
 
 /.*
