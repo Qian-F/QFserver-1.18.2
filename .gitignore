@@ -13,7 +13,6 @@ logs/
 /plugins/NekoMaid/status.json
 /plugins/ProtocolLib/lastupdate
 /plugins/DynamicDifficulty/data.yml
-/plugins/DynamicDifficulty/data.yml
 /permissions.yml
 /version_history.json
 /whitelist.json
