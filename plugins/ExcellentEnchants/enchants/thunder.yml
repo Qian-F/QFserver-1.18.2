@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Thunder
+Name: 雷神
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: rare
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- '%enchantment_trigger_chance%% chance to summon lightning to enemy on hit.'
+- '%enchantment_trigger_chance%% 几率召唤闪电当你攻击时'
 Level:
   # Sets the minimal (start) enchantment level. Can not be less than 1.
   Min: 1

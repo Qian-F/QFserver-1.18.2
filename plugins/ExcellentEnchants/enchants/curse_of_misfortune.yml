@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Curse of Misfortune
+Name: 厄运诅咒
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: cursed
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- '%enchantment_trigger_chance%% chance to have no drops from blocks or mobs.'
+- 有%enchantment_trigger_chance%% 几率 不掉落战利品
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts:

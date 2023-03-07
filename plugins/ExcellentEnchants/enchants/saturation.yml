@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Saturation
+Name: 饱食
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: rare
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- Restores %enchantment_saturation_amount% food points every %enchantment_saturation_interval%s.
+- 恢复 %enchantment_saturation_amount% 饱食度 每 %enchantment_saturation_interval% 秒
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts: []

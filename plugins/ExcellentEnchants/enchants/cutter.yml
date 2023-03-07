@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Cutter
+Name: 破甲
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: exotic
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- '%enchantment_trigger_chance%% chance to throw away enemy''s armor and damage it for %enchantment_durability_damage%%.'
+- 攻击有 %enchantment_trigger_chance%% 几率破甲并降低其 %enchantment_durability_damage%% 耐久
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts: []

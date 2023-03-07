@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Temper
+Name: 嗜血杀戮
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: rare
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- Inflicts %enchantment_damage_amount%% (max. %enchantment_damage_capacity%%) more damage for each %enchantment_health_point% hearts missing.
+- 增加 %enchantment_damage_amount%% 额外伤害 (最高 %enchantment_damage_capacity%%) 每损失 %enchantment_health_point% 生命值
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts: []

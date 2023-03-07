@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Telekinesis
+Name: 万磁王
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: exotic
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- Moves all blocks loot directly to your inventory.
+- 将你附近的物品自动吸入背包
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts: []

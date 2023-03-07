@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Night Vision
+Name: 暗夜行者
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: rare
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- Grants permanent %enchantment_potion_type% %enchantment_potion_level% effect.
+- 获得 %enchantment_potion_type% %enchantment_potion_level% 效果
 Level:
   # Sets the minimal (start) enchantment level. Can not be less than 1.
   Min: 1

@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Venom
+Name: 毒液
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: rare
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- '%enchantment_trigger_chance%% chance to apply %enchantment_potion_type% %enchantment_potion_level% (%enchantment_potion_duration%s.) on hit.'
+- '攻击有 %enchantment_trigger_chance%% 几率 给对手造成 %enchantment_potion_type% %enchantment_potion_level% 效果 (持续%enchantment_potion_duration% 秒) '
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts: []

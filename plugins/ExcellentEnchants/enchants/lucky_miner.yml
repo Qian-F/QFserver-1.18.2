@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Lucky Miner
+Name: 幸运矿工
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: common
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- '%enchantment_trigger_chance%% chance to gain %enchantment_exp_modifier%% more exp from ores.'
+- 挖矿有 %enchantment_trigger_chance%% 几率 获得 %enchantment_exp_modifier%% 的额外经验
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts: []

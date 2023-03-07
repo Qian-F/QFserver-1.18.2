@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Ender Bow
+Name: 末影弓
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: legendary
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- Shoots ender pearls instead of arrows.
+- 发射出去的箭将会有概率变成末影珍珠
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts:

@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Village Defender
+Name: 村庄卫士
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: common
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- Inflicts %enchantment_damage_amount% more damage to all pillagers.
+- 攻击掠夺者时 造成 %enchantment_damage_amount% 额外伤害
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts:

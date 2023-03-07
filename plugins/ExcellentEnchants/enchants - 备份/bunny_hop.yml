@@ -1,0 +1,93 @@
+# Enchantment display name. It will be shown in item lore.
+Name: Bunny Hop
+# Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
+Tier: common
+# Enchantment description. It will be shown in item lore under enchantment name.
+# You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
+Description:
+- Grants permanent %enchantment_potion_type% %enchantment_potion_level% effect.
+# A list of conflicting enchantment names.
+# Conflicting enchantments can not be combined on anvils and obtained together on the same item.
+Conflicts: []
+Level:
+  # Sets the minimal (start) enchantment level. Can not be less than 1.
+  Min: 1
+  # Sets the maximal enchantment level. Can not be less than min. level.
+  # Note: While you can 'bypass' this value by enchant commands, all level-dependant enchantment
+  # settings will have a limit up to this setting.
+  Max: 3
+# Sets whether this enchantment is a treasure enchantment.
+# Treasure enchantments can only be received via looting, trading, or fishing.
+Is_Treasure: false
+Enchanting_Table:
+  # Sets how much XP levels must be used in enchanting table to obtain this enchantment.
+  # With a default formula '9 * %enchantment_level%' it will be [9, 18, 27] XP levels for [1, 2, 3] enchantment levels.
+  # You can use formulas/expressions here: https://github.com/nulli0n/NexEngine-spigot/wiki/Configuration-Tips#scalable-sections
+  # Level placeholder: %enchantment_level%
+  Level_By_Exp_Cost: 10 * %enchantment_level%
+  # Chance for this enchantment to be obtained via Enchanting_Table
+  Chance: 50.0
+  Level:
+    # Minimal level when obtained via Enchanting_Table
+    # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
+    Min: -1
+    # Maximal level when obtained via Enchanting_Table
+    # Can not be greater than enchantment max. level. Set -1 to use enchantment max. level.
+    Max: -1
+Anvil:
+  # Sets how much XP levels will be added to the anvil cost when combining custom enchantments.
+  # You can use formulas/expressions here: https://github.com/nulli0n/NexEngine-spigot/wiki/Configuration-Tips#scalable-sections
+  # Level placeholder: %enchantment_level%
+  Merge_Cost: '%enchantment_level%'
+Villagers:
+  # Chance for this enchantment to be obtained via Villagers
+  Chance: 50.0
+  Level:
+    # Minimal level when obtained via Villagers
+    # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
+    Min: -1
+    # Maximal level when obtained via Villagers
+    # Can not be greater than enchantment max. level. Set -1 to use enchantment max. level.
+    Max: -1
+Loot_Generation:
+  # Chance for this enchantment to be obtained via Loot_Generation
+  Chance: 50.0
+  Level:
+    # Minimal level when obtained via Loot_Generation
+    # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
+    Min: -1
+    # Maximal level when obtained via Loot_Generation
+    # Can not be greater than enchantment max. level. Set -1 to use enchantment max. level.
+    Max: -1
+Fishing:
+  # Chance for this enchantment to be obtained via Fishing
+  Chance: 50.0
+  Level:
+    # Minimal level when obtained via Fishing
+    # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
+    Min: -1
+    # Maximal level when obtained via Fishing
+    # Can not be greater than enchantment max. level. Set -1 to use enchantment max. level.
+    Max: -1
+Mob_Spawning:
+  # Chance for this enchantment to be obtained via Mob_Spawning
+  Chance: 50.0
+  Level:
+    # Minimal level when obtained via Mob_Spawning
+    # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
+    Min: -1
+    # Maximal level when obtained via Mob_Spawning
+    # Can not be greater than enchantment max. level. Set -1 to use enchantment max. level.
+    Max: -1
+Settings:
+  # Enables/Disables enchantment visual effects, such as particles.
+  Visual_Effects: true
+  Potion_Effect:
+    # Potion effect duration (in seconds). This setting is useless for 'permanent' effects.
+    # You can use formulas/expressions here: https://github.com/nulli0n/NexEngine-spigot/wiki/Configuration-Tips#scalable-sections
+    # Level placeholder: %enchantment_level%
+    Duration: 5.0 * %enchantment_level%
+    # Potion effect level.
+    # You can use formulas/expressions here: https://github.com/nulli0n/NexEngine-spigot/wiki/Configuration-Tips#scalable-sections
+    # Level placeholder: %enchantment_level%
+    Level: '%enchantment_level%'

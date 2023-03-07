@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Explosive Arrows
+Name: 爆炸弓
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: exotic
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- '%enchantment_trigger_chance%% chance to launch an explosive arrow.'
+- 射箭时有 %enchantment_trigger_chance%% 几率 发射出一定范围的爆炸箭
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts:

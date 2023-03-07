@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Nimble
+Name: 击杀者
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: rare
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- Moves all mob's loot directly to your inventory.
+- 将所有的战利品以迅雷不及掩耳之势收集到你的背包中
 Level:
   # Sets the minimal (start) enchantment level. Can not be less than 1.
   Min: 1

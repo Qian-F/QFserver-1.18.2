@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Scavenger
+Name: 拾荒者
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: common
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- '%enchantment_trigger_chance%% chance to obtain additional loot from mobs.'
+- '%enchantment_trigger_chance%% 几率 获得额外掉落物'
 Level:
   # Sets the minimal (start) enchantment level. Can not be less than 1.
   Min: 1

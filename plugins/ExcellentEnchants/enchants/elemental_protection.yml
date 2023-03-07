@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Elemental Protection
+Name: 元素护盾
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: common
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- Reduces Poison, Magic, Wither, Lightning, Freeze damage by %enchantment_protection_amount%.
+- 抵挡毒药, 魔法, 枯萎, 闪电, 冻结 %enchantment_protection_amount% 伤害
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts: []

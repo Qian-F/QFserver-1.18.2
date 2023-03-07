@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Rocket
+Name: 火箭
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: exotic
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- '%enchantment_trigger_chance%% chance to launch your enemy into the space.'
+- 射箭有 %enchantment_trigger_chance%% 几率 将对手发射升空
 Level:
   # Sets the minimal (start) enchantment level. Can not be less than 1.
   Min: 1

@@ -14,5 +14,26 @@ Command:
     Desc: 给予自定义品质的附魔书
     Error: '&c无效品质！'
     Done: 已给予&6%player&6%enchant%&7附魔书。
+  List:
+    Desc: List of all custom enchantments.
 Error:
   NoEnchant: '&c没有这种附魔'
+FitItemType:
+  HELMET: 头盔
+  CHESTPLATE: 胸甲
+  LEGGINGS: 护腿
+  BOOTS: 靴子
+  ELYTRA: 鞘翅
+  WEAPON: 武器
+  TOOL: 剪刀
+  ARMOR: 护甲
+  UNIVERSAL: Universal
+  SWORD: 剑
+  TRIDENT: 三叉戟
+  AXE: 斧头
+  BOW: 弓
+  CROSSBOW: 弩
+  HOE: 锄头
+  PICKAXE: 镐
+  SHOVEL: 铲
+  FISHING_ROD: 鱼竿

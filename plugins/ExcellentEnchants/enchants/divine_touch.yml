@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Divine Touch
+Name: 神之触手
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: legendary
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- '%enchantment_trigger_chance%% chance to mine spawner.'
+- '%enchantment_trigger_chance%% 几率 挖掘时获得 &f刷怪笼&8'
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts:

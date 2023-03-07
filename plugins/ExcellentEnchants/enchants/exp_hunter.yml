@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Exp Hunter
+Name: 经验猎人
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: rare
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- Increases exp drop from mobs by %enchantment_exp_modifier%%.
+- 击杀有几率掉落 %enchantment_exp_modifier%% 的额外经验
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts: []

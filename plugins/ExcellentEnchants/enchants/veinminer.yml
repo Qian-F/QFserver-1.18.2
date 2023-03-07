@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Veinminer
+Name: 矿脉矿工
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: rare
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- Mines up to %enchantment_block_limit% blocks of the ore vein at once.
+- 一次性开采 %enchantment_block_limit% 个矿物
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts:

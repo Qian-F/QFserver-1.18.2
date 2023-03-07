@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Ice Aspect
+Name: 冰寒
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: common
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- Freezes and applies %enchantment_potion_type% %enchantment_potion_level% (%enchantment_potion_duration%s.) on hit.
+- 被攻击时有给予对手 %enchantment_potion_type% %enchantment_potion_level%效果 持续 (%enchantment_potion_duration%秒)
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts: []

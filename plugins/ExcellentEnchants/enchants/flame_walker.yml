@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Flame Walker
+Name: 烈焰行者
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: exotic
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- Ability to walk on lava and magma blocks without getting damage.
+- 可以在岩浆上行走
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts:

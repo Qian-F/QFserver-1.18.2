@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Regrowth
+Name: 再生
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: exotic
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- Restores %enchantment_heal_amount% hearts every %enchantment_heal_interval%s.
+- 恢复 %enchantment_heal_amount% 生命值 每%enchantment_heal_interval%秒
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts: []

@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Thrifty
+Name: 宽恕
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: exotic
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- '%enchantment_trigger_chance%% chance to obtain mob spawn egg on kill.'
+- 击杀生物有 %enchantment_trigger_chance%% 几率 掉落刷怪蛋
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts: []
@@ -26,14 +26,14 @@ Settings:
   # List of entity types, that will not drop spawn eggs.
   # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
   Ignored_Entity_Types:
-  - ENDER_DRAGON
   - WITHER
+  - ENDER_DRAGON
   # Entities will not drop spawn eggs if they were spawned by one of the reasons below.
   # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
   Ignored_Spawn_Reasons:
-  - DISPENSE_EGG
-  - SPAWNER
   - SPAWNER_EGG
+  - SPAWNER
+  - DISPENSE_EGG
 # Sets whether this enchantment is a treasure enchantment.
 # Treasure enchantments can only be received via looting, trading, or fishing.
 Is_Treasure: false

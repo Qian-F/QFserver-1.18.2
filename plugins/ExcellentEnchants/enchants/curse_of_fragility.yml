@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Curse of Fragility
+Name: 易损诅咒
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: cursed
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- Prevents an item from being grindstoned or anviled.
+- 增加使用磨石或铁砧时物品可能会被损坏的概率
 Level:
   # Sets the minimal (start) enchantment level. Can not be less than 1.
   Min: 1

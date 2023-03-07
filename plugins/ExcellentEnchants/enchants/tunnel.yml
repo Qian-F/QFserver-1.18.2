@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Tunnel
+Name: 盾构机
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: legendary
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- Mines multiple blocks at once in a certain shape.
+- 每次挖掘更多方块:)盾构机
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts:

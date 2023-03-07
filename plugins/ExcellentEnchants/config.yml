@@ -1,13 +1,13 @@
 Plugin:
   # Command names that will be registered as main plugin commands.
   # Do not leave this empty. Split multiple names with a comma.
-  Command_Aliases: excellentenchants,eenchants
+  Command_Aliases: excellentenchants,eenchants,ect
   # Sets the plugin language.
   # It will use language config from the '/lang/' sub-folder for specified language code.
   # By default it's 'en', so 'messages_en.yml' will be used.
-  Language: en
+  Language: cn
   # Localized plugin name. It's used in messages and with internal placeholders.
-  Name: ExcellentEnchants
+  Name: 更多附魔
   # Plugin prefix. Used in messages.
   # You can use %plugin_name_localized% placeholder for a plugin name.
   Prefix: '&e%plugin_name% &8» &7'
@@ -45,22 +45,15 @@ Enchantments:
   # Enchantment names are the same as enchantment file name in /enchants/ folder. ! Must be in lower_case !
   # Example: To disable 'Explosive Arrows' you need to add 'explosive_arrows' here.
   Disabled:
-  - other_enchant
   - enchant_name
+  - other_enchant
   # Here you can disable certain enchantments in certain worlds.
   # Enchantment names are the same as enchantment file name in /enchants/ folder. ! Must be in lower_case !
   # To disable all enchantments for a world, use '*' instead of enchantment names.
   Disabled_In_Worlds:
     your_world_name:
-    - ice_aspect
     - enchantment_name
-  Display:
-    # Sets how enchantment names and descriptions will be handled on items.
-    # 1 = Plain modification of item's lore (lore changes are real and persistent).
-    # 2 = Packet modification of item's lore (no real changes are made to the items). Requires ProtocolLib.
-    # Plain mode is faster, but may not reflect all changes immediately.
-    # Packet mode is slower, but instantly reflect all changes. In creative mode, there is a chance for lore duplication.
-    Mode: 1
+    - ice_aspect
   Description:
     # When 'true', adds the enchantment description to item lore under enchantment names.
     # Note #1: You must have ProtocolLib installed for this feature to work (as well as for enchantments name display).
@@ -83,28 +76,7 @@ Enchantments:
     Apply_Passive_Enchants_To_Mobs: true
   # Settings for the different ways of obtaining enchantments.
   Obtaining:
-    Villagers:
-      Enabled: true
-      Enchantments:
-        Total_Maximum: 4
-        Custom_Generation_Chance: 80.0
-        Custom_Minimum: 0
-        Custom_Maximum: 2
     Loot_Generation:
-      Enabled: true
-      Enchantments:
-        Total_Maximum: 4
-        Custom_Generation_Chance: 80.0
-        Custom_Minimum: 0
-        Custom_Maximum: 2
-    Enchanting_Table:
-      Enabled: true
-      Enchantments:
-        Total_Maximum: 4
-        Custom_Generation_Chance: 80.0
-        Custom_Minimum: 0
-        Custom_Maximum: 2
-    Mob_Spawning:
       Enabled: true
       Enchantments:
         Total_Maximum: 4
@@ -118,3 +90,31 @@ Enchantments:
         Custom_Generation_Chance: 80.0
         Custom_Minimum: 0
         Custom_Maximum: 2
+    Mob_Spawning:
+      Enabled: true
+      Enchantments:
+        Total_Maximum: 4
+        Custom_Generation_Chance: 80.0
+        Custom_Minimum: 0
+        Custom_Maximum: 2
+    Villagers:
+      Enabled: true
+      Enchantments:
+        Total_Maximum: 4
+        Custom_Generation_Chance: 80.0
+        Custom_Minimum: 0
+        Custom_Maximum: 2
+    Enchanting_Table:
+      Enabled: true
+      Enchantments:
+        Total_Maximum: 4
+        Custom_Generation_Chance: 80.0
+        Custom_Minimum: 0
+        Custom_Maximum: 2
+  Display:
+    # Sets how enchantment names and descriptions will be handled on items.
+    # 1 = Plain modification of item's lore (lore changes are real and persistent).
+    # 2 = Packet modification of item's lore (no real changes are made to the items). Requires ProtocolLib.
+    # Plain mode is faster, but may not reflect all changes immediately.
+    # Packet mode is slower, but instantly reflect all changes. In creative mode, there is a chance for lore duplication.
+    Mode: 1

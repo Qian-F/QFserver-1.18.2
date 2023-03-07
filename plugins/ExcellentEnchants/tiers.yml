@@ -1,5 +1,5 @@
 common:
-  Name: 'Common'
+  Name: '普通'
   Color: 'WHITE'
   Priority: 1
   Obtain_Chance:
@@ -9,7 +9,7 @@ common:
     FISHING: 80.0
     MOB_SPAWNING: 80.0
 rare:
-  Name: 'Rare'
+  Name: '稀有'
   Color: 'GREEN'
   Priority: 2
   Obtain_Chance:
@@ -19,7 +19,7 @@ rare:
     FISHING: 50.0
     MOB_SPAWNING: 50.0
 exotic:
-  Name: 'Exotic'
+  Name: '史诗'
   Color: 'YELLOW'
   Priority: 3
   Obtain_Chance:
@@ -29,7 +29,7 @@ exotic:
     FISHING: 25.0
     MOB_SPAWNING: 25.0
 legendary:
-  Name: 'Legendary'
+  Name: '神话'
   Color: 'GOLD'
   Priority: 4
   Obtain_Chance:
@@ -39,7 +39,7 @@ legendary:
     FISHING: 10.0
     MOB_SPAWNING: 10.0
 cursed:
-  Name: 'Cursed'
+  Name: '绝世'
   Color: 'RED'
   Priority: 0
   Obtain_Chance:

@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Decapitator
+Name: 刽子手
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: exotic
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- '%enchantment_trigger_chance%% chance to obtain player''s or mob''s head.'
+- 有 %enchantment_trigger_chance%% 几率 砍下对手的头颅
 # A list of conflicting enchantment names.
 # Conflicting enchantments can not be combined on anvils and obtained together on the same item.
 Conflicts: []
