@@ -1,0 +1,37 @@
+Command:
+  List:
+    Desc: List of all custom enchantments.
+  Enchant:
+    Usage: <enchant> <level>
+    Desc: Enchants the item in your hand.
+    Done: '&aSuccessfully enchanted!'
+  Book:
+    Usage: <player> <enchant> <level>
+    Desc: Gives custom enchanted book.
+    Done: Given &6%enchant%&7 enchanted book to &6%player_display_name%&7.
+  TierBook:
+    Usage: <player> <tier> <level>
+    Desc: Gives an enchanted book.
+    Error: '&cInvalid tier!'
+    Done: Given &6%tier_name%&7 enchanted book to &6%player_display_name%&7.
+Error:
+  NoEnchant: '&cInvalid enchantment.'
+FitItemType:
+  HELMET: Helmet
+  CHESTPLATE: Chestplate
+  LEGGINGS: Leggings
+  BOOTS: Boots
+  ELYTRA: Elytra
+  WEAPON: Weapon
+  TOOL: Tool
+  ARMOR: Armor
+  UNIVERSAL: Universal
+  SWORD: Sword
+  TRIDENT: Trident
+  AXE: Axe
+  BOW: Bow
+  CROSSBOW: Crossbow
+  HOE: Hoe
+  PICKAXE: Pickaxe
+  SHOVEL: Shovel
+  FISHING_ROD: Fishing Rod

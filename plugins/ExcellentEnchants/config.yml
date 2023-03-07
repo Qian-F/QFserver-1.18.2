@@ -1,0 +1,120 @@
+Plugin:
+  # Command names that will be registered as main plugin commands.
+  # Do not leave this empty. Split multiple names with a comma.
+  Command_Aliases: excellentenchants,eenchants
+  # Sets the plugin language.
+  # It will use language config from the '/lang/' sub-folder for specified language code.
+  # By default it's 'en', so 'messages_en.yml' will be used.
+  Language: en
+  # Localized plugin name. It's used in messages and with internal placeholders.
+  Name: ExcellentEnchants
+  # Plugin prefix. Used in messages.
+  # You can use %plugin_name_localized% placeholder for a plugin name.
+  Prefix: '&e%plugin_name% &8» &7'
+Tasks:
+  Arrow_Trail:
+    # Sets how often (in ticks) arrow trail particle effects will be spawned behind the arrow.
+    Tick_Interval: 1
+  Passive_Potion_Effects:
+    # Sets how often (in ticks) the plugin will apply permanent potion effects from enchanted items to an entity who wear them.
+    # This setting does NOT refreshes currently active effects, but only attempts to add them if absent.
+    Apply_Interval: 150
+Enchantments:
+  Charges:
+    # Enables the enchantment Charges feature.
+    # https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Charges-System
+    Enabled: false
+    # Enchantment charges format depends on amount of charges left (in percent).
+    # If you don't want to display charges, leave only keys with negative values.
+    # Use '%amount%' placeholder for amount of charges.
+    Format:
+      '0':
+        '0': '#ff9a9a(%amount%⚡)'
+      '25':
+        '0': '#ffc39a(%amount%⚡)'
+      '50':
+        '0': '#f6ff9a(%amount%⚡)'
+      '75':
+        '0': '#bcff9a(%amount%⚡)'
+    # Default item used to recharge item's enchantments on anvils.
+    # If you want different item for certain enchantments, you can do it in that enchantment configs.
+    # Item Options: https://github.com/nulli0n/NexEngine-spigot/wiki/Configuration-Tips#scalable-sections
+    Fuel_Item:
+      Material: LAPIS_LAZULI
+  # A list of enchantments, that will be disabled and removed from the game (server).
+  # Enchantment names are the same as enchantment file name in /enchants/ folder. ! Must be in lower_case !
+  # Example: To disable 'Explosive Arrows' you need to add 'explosive_arrows' here.
+  Disabled:
+  - other_enchant
+  - enchant_name
+  # Here you can disable certain enchantments in certain worlds.
+  # Enchantment names are the same as enchantment file name in /enchants/ folder. ! Must be in lower_case !
+  # To disable all enchantments for a world, use '*' instead of enchantment names.
+  Disabled_In_Worlds:
+    your_world_name:
+    - ice_aspect
+    - enchantment_name
+  Display:
+    # Sets how enchantment names and descriptions will be handled on items.
+    # 1 = Plain modification of item's lore (lore changes are real and persistent).
+    # 2 = Packet modification of item's lore (no real changes are made to the items). Requires ProtocolLib.
+    # Plain mode is faster, but may not reflect all changes immediately.
+    # Packet mode is slower, but instantly reflect all changes. In creative mode, there is a chance for lore duplication.
+    Mode: 1
+  Description:
+    # When 'true', adds the enchantment description to item lore under enchantment names.
+    # Note #1: You must have ProtocolLib installed for this feature to work (as well as for enchantments name display).
+    # Note #2: Description is not shown while you're in Creative gamemode.
+    Enabled: true
+    # Sets the global enchantment description format.
+    Format: '&8▸ %description%'
+  Item:
+    # How many of custom enchantments the item can contain at the same time?
+    Max_Custom_Enchants: 3
+    # Set this to 'true' to allow Sword enchantments for Axes.
+    Sword_Enchants_To_Axes: true
+    # Set this to 'true' to allow Bow enchantments for Crossbows.
+    Bow_Enchants_To_Crossbows: true
+    # Set this to 'true' to allow Chestplate enchantments for Elytras.
+    Chestplate_Enchants_To_Elytra: false
+  Entity:
+    # When enabled, passive enchantments (permanent potion effects, regeneration, etc.) will be applied to mobs as well.
+    # Disable this if you're experiencing performance issues.
+    Apply_Passive_Enchants_To_Mobs: true
+  # Settings for the different ways of obtaining enchantments.
+  Obtaining:
+    Villagers:
+      Enabled: true
+      Enchantments:
+        Total_Maximum: 4
+        Custom_Generation_Chance: 80.0
+        Custom_Minimum: 0
+        Custom_Maximum: 2
+    Loot_Generation:
+      Enabled: true
+      Enchantments:
+        Total_Maximum: 4
+        Custom_Generation_Chance: 80.0
+        Custom_Minimum: 0
+        Custom_Maximum: 2
+    Enchanting_Table:
+      Enabled: true
+      Enchantments:
+        Total_Maximum: 4
+        Custom_Generation_Chance: 80.0
+        Custom_Minimum: 0
+        Custom_Maximum: 2
+    Mob_Spawning:
+      Enabled: true
+      Enchantments:
+        Total_Maximum: 4
+        Custom_Generation_Chance: 80.0
+        Custom_Minimum: 0
+        Custom_Maximum: 2
+    Fishing:
+      Enabled: true
+      Enchantments:
+        Total_Maximum: 4
+        Custom_Generation_Chance: 80.0
+        Custom_Minimum: 0
+        Custom_Maximum: 2
