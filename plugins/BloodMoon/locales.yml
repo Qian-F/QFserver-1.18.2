@@ -1,0 +1,33 @@
+#Plugin version. Please do not tamper
+LocalesVersion: 0.8.1
+
+#Locales file. use $n to create a new line
+#Some entries can accept a parameter, which will be $d
+#You can completely silence a line by assigning "%void%"
+#You can use color codes. Refer to https://dev.bukkit.org/projects/color-chat for more info
+
+BloodMoonTitleBar: "血月"
+DeathSuffix: "during a BloodMoon!"
+DaysBeforeBloodMoon: "&aThere are&f $d &adays until the next BloodMoon"
+BloodMoonRightNow: "&ca BloodMoon is taking place right now!"
+BloodMoonTomorrow: "&6a BloodMoon is on its way tomorrow"
+BloodMoonTonight: "&5The sky is darker than usual tonight"
+BloodMoonWarningTitle: "&4&lThe BloodMoon is upon us"
+BloodMoonWarningBody: "&cExperience is multiplied, and mobs have bonus drops$n&cMobs are stronger and apply special debuffs"
+BloodMoonEndingMessage: "&a&l血月消失了……暂时"
+DyingResultsInInventoryLoss: "&4&lDying during a BloodMoon results in complete deletion of inventory"
+DyingResultsInExperienceLoss: "&4&l在血月期间死亡会将您的经验重置为零"
+PluginReloaded: "&a插件已成功重新加载"
+NoBloodMoonInWorld: "&o你所在的世界没有血月"
+CommandNotFound: "&c命令&o&f $d &r&c不存在"
+NoPermission: "&c您无权这样做"
+AllowedCommands: "&6支持的命令是: &f&o$d"
+BedNotAllowed: "&cYou cannot sleep during a &4BloodMoon"
+WorldIsPermanentBloodMoon: "&c整个世界永远处于血月之中"
+CannotStopBloodMoon: "&c你无法阻止这个世界上的血月"
+GeneralError: "&c&o处理您的请求时出错"
+ZombieBossSpawned: "&f&l$b &f已经到达"
+ZombieBossName: "Boss"
+BossSlain: "&l$p &2杀了 &f$b!"
+HordeArrived: "&cA horde has descended upon &f$p!"
+NoPlayerOfName: "&cNo player of name &f$p &ccould be found in world &f$w"

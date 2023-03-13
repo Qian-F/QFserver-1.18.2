@@ -1,5 +1,5 @@
 # Enchantment display name. It will be shown in item lore.
-Name: 让子弹飞一会
+Name: 悬浮弓
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: common
 # Enchantment description. It will be shown in item lore under enchantment name.

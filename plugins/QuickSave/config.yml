@@ -1,0 +1,22 @@
+config:
+  version: 1.0
+  format:
+    tag: '&3[&b快速备份&3]'
+    perms: '&c没有权限'
+    noWorld: '&c在配置中找不到世界'
+    reload: '&a重载成功'
+    saving: '&a开始备份'
+  autoBackup: true
+  backupTickInterval: 1728000
+  worldsToBackup:
+  - world
+  - world_nether
+  - world_the_end
+updater:
+  auto_update: true
+folder_size:
+  maximum_enabled: false
+  maximum_value: 750
+amount:
+  maximum_enabled: true
+  maximum_value: 5

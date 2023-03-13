@@ -1580,94 +1580,67 @@ Enchantment:
   feather_falling: 摔落保护
   power: 力量
   infinity: 无限
-  confusing_arrows: 困惑箭头
-  dragonfire_arrows: 龙火箭头
-  electrified_arrows: 闪电箭头
-  ender_bow: 安德弓
-  bomber: 轰炸机
-  poisoned_arrows: 剧毒箭头
-  withered_arrows: 凋零箭头
-  blast_mining: 爆破采矿
-  vanish: 消失
+  aquaman: 海之子
+  bane_of_netherspawn: 地狱猎手
+  blast_mining: 爆破挖掘
+  blindness: 伤瞳
+  bomber: TNT箭
+  bunny_hop: 灵跃
+  cold_steel: 冷若寒钢
+  confusing_arrows: 混乱箭失
+  confusion: 神触
+  cure: 圣光
+  curse_of_breaking: 易碎诅咒
+  curse_of_fragility: 易损诅咒
+  curse_of_misfortune: 厄运诅咒
+  cutter: 破甲
+  decapitator: 刽子手
+  divine_touch: 神奇镐头
+  double_strike: 二重击
+  dragonfire_arrows: 龙息弓
+  electrified_arrows: 雷神之箭
+  elemental_protection: 元素护盾
+  ender_bow: 末影弓
+  exhaust: 力竭
+  exp_hunter: 经验猎手
+  explosive_arrows: 爆炸弓
+  fire_shield: 烈焰护体
+  flame_walker: 烈焰行者
+  ghast: 恶魂弓
+  hardened: 石化
+  haste: 急迫
+  hover: 悬浮弓
+  ice_aspect: 冰寒
+  ice_shield: 冰盾
+  infernus: 炼狱
+  lucky_miner: 幸运矿工
+  night_vision: 暗夜行者
+  nimble: 我的就是我的!
+  paralyze: 麻痹
+  poisoned_arrows: 毒箭
+  rage: 怒火攻心
+  regrowth: 再生
+  replanter: 自动补种
+  rocket: 火箭
+  saturation: 饱食
+  scavenger: 拾荒者
+  self_destruction: 死亡威胁
+  silk_chest: 搬运大师
+  smelter: 熔炼
+  sonic: 迅捷
+  surprise: 惊喜
+  telekinesis: 自动捡拾
+  temper: 嗜血杀戮
+  thrifty: 宽恕
+  thunder: 雷神
+  treasures: 宝藏
+  tunnel: 盾构机
+  vampire: 嗜血
   veinminer: 矿脉矿工
-  ninja: 忍者
-  haunting: 困扰
-  goliath: 巨人
-  feather_step: 羽毛步法
-  caffeinated: 含咖啡因
-  end_affinity: 结束亲和力
-  finishing: 完成
-  wound: 伤口
-  sparks: 火花
-  poison_ivy: 毒藤
-  arcane_defence: 法术防御
-  rumble: 隆隆声
-  ender_slayer: 末影杀手
-  confusion: 混乱
-  replenish: 补充
-  lifesteal: 生命值
-  hunger_curse: 饥饿诅咒
-  misfortune_curse: 不幸诅咒
-  nether_prospector: 下界探矿者
-  jumpshot: 跳投
-  metabolism: 新陈代谢
-  ascend: 提升
-  telekinesis: Telekinesis
-  permanence_curse: Permanence Curse
-  rebounding: Rebounding
-  wisdom: Wisdom
-  boss_hunter: Boss Hunter
-  lumberjack: Lumberjack
-  block_breather: Block Breather
-  thor: Thor
-  slipstream: Slipstream
-  cubism: Cubism
-  transmission: Transmission
-  getaway: Getaway
-  introversion: Introversion
-  snipe: Snipe
-  shulker_harvest: Shulker Harvest
-  vitality: Vitality
-  first_strike: First Strike
-  shura: Shura
-  aura: Aura
-  rapid: Rapid
-  rocket_saver: Rocket Saver
-  contagion: Contagion
-  tripleshot: Tripleshot
-  wyvern: Wyvern
-  skull_puncture: Skull Puncture
-  foraging: Foraging
-  breaklessness_curse: 不破诅咒
-  one_for_all: 一体
-  warp_drive: 传送器
-  xray: 透视
-  soul_storm: Soul Storm
-  stun: Stun
-  frost: Frost
-  carve: Carve
-  repairing: Repairing
-  flashbang: Flashbang
-  dynamite: Dynamite
-  criticals: Criticals
-  infernal_touch: Infernal Touch
-  slaughter: Slaughter
-  blackout: Blackout
-  nether_affinity: Nether Affinity
-  streamlining: Streamlining
-  fortitude: Fortitude
-  brightness: Brightness
-  soulbound: Soulbound
-  charge: Charge
-  bleed: Bleed
-  excavation: Excavation
-  harmlessness_curse: Harmlessness Curse
-  dexterity: Dexterity
-  abrasion: Abrasion
-  adrenaline: Adrenaline
-  escape: Escape
-  thrive: Thrive
-  stamina: Stamina
+  venom: 毒液
+  village_defender: 村庄卫士
+  wither: 凋零
+  withered_arrows: 凋零弓
 Editor:
   Tip:
     Exit: '{json: ~text: &b点击以退出 &d编辑模式; ~showText: &7点击或者输入 &f#exit; ~runCommand: /#exit;}'

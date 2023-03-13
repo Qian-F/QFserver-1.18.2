@@ -1,5 +1,5 @@
 # Enchantment display name. It will be shown in item lore.
-Name: 防火墙
+Name: 烈焰护体
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: rare
 # Enchantment description. It will be shown in item lore under enchantment name.

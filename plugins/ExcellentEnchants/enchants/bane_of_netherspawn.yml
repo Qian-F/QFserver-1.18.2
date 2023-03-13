@@ -1,7 +1,7 @@
 # Enchantment display name. It will be shown in item lore.
-Name: 下界杀手
+Name: 地狱猎手
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
-Tier: yello
+Tier: common
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
@@ -45,7 +45,7 @@ Anvil:
   Merge_Cost: '%enchantment_level%'
 Villagers:
   # Chance for this enchantment to be obtained via Villagers
-  Chance: 80.0
+  Chance: 50.0
   Level:
     # Minimal level when obtained via Villagers
     # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
@@ -55,7 +55,7 @@ Villagers:
     Max: -1
 Loot_Generation:
   # Chance for this enchantment to be obtained via Loot_Generation
-  Chance: 80.0
+  Chance: 50.0
   Level:
     # Minimal level when obtained via Loot_Generation
     # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
@@ -65,7 +65,7 @@ Loot_Generation:
     Max: -1
 Fishing:
   # Chance for this enchantment to be obtained via Fishing
-  Chance: 80.0
+  Chance: 50.0
   Level:
     # Minimal level when obtained via Fishing
     # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
@@ -75,7 +75,7 @@ Fishing:
     Max: -1
 Mob_Spawning:
   # Chance for this enchantment to be obtained via Mob_Spawning
-  Chance: 80.0
+  Chance: 50.0
   Level:
     # Minimal level when obtained via Mob_Spawning
     # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.

@@ -1,5 +1,5 @@
 # Enchantment display name. It will be shown in item lore.
-Name: 超级开采
+Name: 爆破挖掘
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: legendary
 # Enchantment description. It will be shown in item lore under enchantment name.

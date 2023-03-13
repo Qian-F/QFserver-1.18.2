@@ -1,0 +1,147 @@
+#Plugin version. Please do not tamper
+ConfigVersion: 0.8.1
+
+#Config file for world world (UUID: 033c53db-9d0d-4c87-b771-012a3514d9bd)
+
+#Wether or not a BloodMoon happens in this world
+#Requires a server restart upon changes
+IsBlacklisted: false
+#Sets a permanent BloodMoon in this world
+#Obviously the interval option is ignored when this is on
+PermanentBloodMoon: false
+#Interval in days between BloodMoons
+BloodMoonInterval: 30
+#Do items despawn upon death?
+ItemDespawnUponDeath: true
+#Does experience despawn upon death?
+ExperienceDespawnsUponDeath: true
+#Maximum item amount to drop per mob death
+ItemDropsMaximum: 4
+#Minimum item amount to drop per mob death
+ItemDropsMinimum: 0
+#Mob experience drop multiplicator. Whole number only
+ExperienceDropMult: 4
+#Mob damage multiplier. Whole number only
+MobDamageMultiplicator: 2
+#Mob health multiplier. Whole number only
+MobHealthMultiplicator: 3
+#Should there be a lightning effect on player death?
+LightningEffectOnPlayerDeath: true
+#Adds a lightning effect when a mob dies
+LightningEffectOnMobDeath: true
+#Should there be a jingle when a BloodMoon ends?
+PlaySoundUponBloodMoonEnd: true
+#Should there be periodic creepy sounds during a BloodMoon?
+PlayPeriodicSoundsDuringBloodMoon: true
+#Adds a dark tone during a BloodMoon
+DarkenSky: true
+#Plays a sound when a player gets hit
+PlaySoundUponHit: true
+#Plays a particle effect when a mob and / or player gets hit
+PlayerHitParticleEffect: true
+MobHitParticleEffect: true
+#Effect of rain and thunder during the BloodMoon
+ThunderDuringBloodMoon: true
+#Prevents sleeping during a BloodMoon
+PreventSleeping: true
+#Prevents mob created by spawner from dropping any reward
+MobsFromSpawnerNoReward: false
+#Prevents special effects from being applied when a player raises their shield
+ShieldPreventsEffects: true
+#Mob spawn rate during a BloodMoon.
+#0 means no mob at all, 25 is average, and anything above 100 is honestly insane
+BloodMoonSpawnMobRate: 25
+#Decides if a zombie boss will spawn each BloodMoon
+EnableZombieBoss: false
+#When in a permanent BloodMoon, how long (in ticks) before respawning zombie boss after death?
+#20 ticks equals a second, 24000 ticks equals a minecraft day
+ZombieBossRespawn: 24000
+ZombieBossDamage: 7
+ZombieBossExpMultiplier: 10
+ZombieBossHealth: 50
+ZombieBossItemMultiplier: 10
+#List of items that can drop, using the
+#"[ITEM_CODE]:[STACK AMOUNT]:[WEIGHT]:$name [META NAME]:$desc [META DESCRIPTION]:$enchant [ENCHANTMENT LIST]" format
+#$name, $desc and $enchant are of course optional
+#The enchantment list argument is formatted as follow: "$enchant [ENCHANT NAME],[LEVEL];"
+#The percent chance of an item dropping is equal to [item weight] / [total weight] * 100
+#Please refer to https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html for the list of items
+#Enchantment names are exactly as they appear in-game, except with "_" replacing spaces. Case is irrelevant
+DropItemList:
+  - "IRON_INGOT:5:10"
+  - "GOLD_INGOT:2:5"
+  - "DIAMOND:1:1"
+  - "IRON_BLOCK:1:5"
+  - "GOLD_BLOCK:1:2"
+#Here is an example of a special item drop with fire aspect I and sharpness III:
+# - "DIAMOND_SWORD:1:1:$name Excalibur:$desc The legendary Excalibur$nSword of King Arthur:$enchant FIRE_ASPECT,1;sharpness,3"
+#These are AOE powers affecting all players around the boss
+#Accepted values are:
+#LIGHTNING,[range],[cooldown]
+#BLINK,[range],[cooldown]
+#FIRE,[range],[cooldown],[duration]
+#UNDERLING,[range],[cooldown],[amount]
+#SPRINT,[duration],[cooldown],[amplifier]
+#BLIND,[range],[cooldown],[duration]
+#POISON,[range],[cooldown],[duration],[amplifier]
+#WITHER,[range],[cooldown],[duration],[amplifier]
+ZombieBossPowerSet:
+  - "WITHER,12,20,5,1"
+#Mob effects on hit. Format (with no spaces in between):
+#[Effect],[Duration in seconds],[Effect amplifier. Use 1 if you're unsure]
+#For a complete list of effects, refert to https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+#Additional effects include: 'LIGHTNING'
+ZOMBIEEffects:
+  - "WITHER,7,1"
+HUSKEffects:
+  - "WITHER,7,1"
+DROWNEDEffects:
+  - "WITHER,7,1"
+ZOMBIE_VILLAGEREffects:
+  - "WITHER,7,1"
+SKELETONEffects:
+  - "SLOW,3.5,1"
+CREEPEREffects:
+  - "LIGHTNING"
+PHANTOMEffects:
+  - "LEVITATION,1.5,3"
+SPIDEREffects:
+  - "POISON,4,1"
+  - "CONFUSION,6,9999"
+ENDERMANEffects:
+  - "SLOW,2.5,2"
+ZOMBIEBOSSEffects:
+  - "WITHER,9,2"
+
+#These commands will be ran right as a BloodMoon starts
+#You must append a ;s, ;f or ;p at the end of the command:
+#using ;s runs the command as the server. Once
+#using ;f runs the command as the server, for each player. use $p as the player placeholder
+#using ;p runs the command as the player, for each player. $p also applies
+#For all options, $w will be replaced by the world name
+#Note that these commands will be the very first and very last operations
+#ran when starting and ending a BloodMoon
+CommandsOnStart:
+#  - "some command;s"
+#Commands ran at the end of the BloodMoon
+CommandsOnEnd:
+#  - "command on player $p on world $w;p"
+
+#Hordes parameter
+#Are hordes even enabled in this world?
+HordesEnabled: false
+#The baseline spawn rate of hordes in ticks (1/5th of a second)
+BaselineHordeSpawnrate: 800
+#The variation of hordes spawn time in ticks
+HordeSpawnrateVariation: 200
+#Decides which mobs are allowed in hordes
+HordeMobWhitelist:
+ - "ZOMBIE"
+ - "SKELETON"
+ - "SPIDER"
+#The distance from players in block at which hordes will spawn
+HordeSpawnDistance: 12
+#The minimum number of mobs in a horde
+HordeMinPopulation: 3
+#The maximum number of mobs in a horde
+HordeMaxPopulation: 10

@@ -63,7 +63,7 @@ Enchantments:
     Format: '&8▸ %description%'
   Item:
     # How many of custom enchantments the item can contain at the same time?
-    Max_Custom_Enchants: 3
+    Max_Custom_Enchants: 5
     # Set this to 'true' to allow Sword enchantments for Axes.
     Sword_Enchants_To_Axes: true
     # Set this to 'true' to allow Bow enchantments for Crossbows.

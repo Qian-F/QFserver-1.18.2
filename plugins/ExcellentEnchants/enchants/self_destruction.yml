@@ -1,11 +1,11 @@
 # Enchantment display name. It will be shown in item lore.
-Name: Self-Destruction
+Name: 死亡威胁
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: exotic
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- '%enchantment_trigger_chance%% chance to create an explosion on death.'
+- '有 %enchantment_trigger_chance%% 的概率死亡时制造爆炸.'
 Level:
   # Sets the minimal (start) enchantment level. Can not be less than 1.
   Min: 1

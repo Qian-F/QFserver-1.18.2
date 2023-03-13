@@ -1,5 +1,5 @@
 # Enchantment display name. It will be shown in item lore.
-Name: 神之触手
+Name: 神奇镐头
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
 Tier: legendary
 # Enchantment description. It will be shown in item lore under enchantment name.

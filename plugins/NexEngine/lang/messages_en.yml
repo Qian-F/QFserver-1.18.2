@@ -1419,6 +1419,23 @@ Enchantment:
   feather_falling: Feather Falling
   power: Power
   infinity: Infinity
+  village_defender: Village Defender
+  veinminer: Veinminer
+  tunnel: Tunnel
+  withered_arrows: Withered Arrows
+  poisoned_arrows: Poisoned Arrows
+  hover: Hover
+  dragonfire_arrows: Dragonfire Arrows
+  confusing_arrows: Confusing Arrows
+  electrified_arrows: Electrified Arrows
+  ghast: Ghast
+  ender_bow: Ender Bow
+  explosive_arrows: Explosive Arrows
+  bomber: Bomber
+  smelter: Smelter
+  divine_touch: Divine Touch
+  blast_mining: Blast Mining
+  bane_of_netherspawn: Bane Of Netherspawn
 Core:
   Command:
     Usage: '&cUsage: &e/%command_label% &6%command_usage%'

@@ -8,7 +8,7 @@ Enchantments:
     Material: ENCHANTED_BOOK
     Name: '%enchantment_name_formatted%'
     Lore:
-    - ''
+    - '%enchantment_description%'
     - '#bcff9a&l信息:'
     - '#bcff9a▪ #ddecee品质: #bcff9a%enchantment_tier%'
     - '#bcff9a▪ #ddecee类型: #bcff9a%enchantment_fit_item_types%'

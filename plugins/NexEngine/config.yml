@@ -5,7 +5,7 @@ Plugin:
   # Sets the plugin language.
   # It will use language config from the '/lang/' sub-folder for specified language code.
   # By default it's 'en', so 'messages_en.yml' will be used.
-  Language: en
+  Language: cn
   # Localized plugin name. It's used in messages and with internal placeholders.
   Name: NexEngine
   # Plugin prefix. Used in messages.
